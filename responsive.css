@@ -1,0 +1,72 @@
+@media (max-height: 950px) {
+  .esquerda {
+    height: auto;
+  }
+}
+
+@media (max-width: 1224px) {
+  .direita {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 900px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .esquerda {
+    width: auto;
+    padding: 50px 100px;
+  }
+
+  .direita .content .linha {
+    height: 50px;
+  }
+
+  .popup {
+    padding: 50px 20px;
+  }
+
+  .popup .titulo {
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 8px;
+  }
+  
+  .popup .texto {
+    color: #353535;
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 32px;
+  }
+
+}
+
+@media (max-width: 600px) {
+
+  .esquerda {
+    width: auto;
+    padding: 50px 50px;
+  }
+
+  .direita {
+    padding: 50px 50px;
+  }
+}
+
+@media (max-width: 375px) {
+  .linha{
+    display: none;
+  }
+
+  .esquerda .nome {
+    font-size: 27px;
+    font-weight: 600;
+  }
+
+  .esquerda .bio .bio-texto {
+    padding-left: 0px;
+    text-align: justify;
+  }
+}
