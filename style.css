@@ -191,7 +191,7 @@ ul {
 }
 
 .direita .content .linha-projetos {
-  width: 4px;
+  width: 12px;
   height: 100%;
   color: #212121;
   background-color: #212121;
@@ -213,6 +213,8 @@ ul {
   font-size: 14px;
   font-weight: 400;
   padding-bottom: 13px;
+  text-align: justify;
+  padding-right: 20px;
 }
 
 .direita .content .atribuicoes ul {
