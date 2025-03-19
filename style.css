@@ -171,27 +171,12 @@ ul {
 .direita .content {
   display: flex;
   flex-direction: row;
+  align-items: stretch;
   padding-bottom: 20px;
 }
 
-.direita .content .linha {
-  width: 2px;
-  height: 100%;
-  color: #212121;
-  background-color: #212121;
-  margin-right: 20px;
-}
-
-.direita .content .linha-experiencia {
-  width: 6px;
-  height: 100%;
-  color: #212121;
-  background-color: #212121;
-  margin-right: 20px;
-}
-
-.direita .content .linha-projetos {
-  width: 12px;
+.direita .linha {
+  width: 1px;
   height: 100%;
   color: #212121;
   background-color: #212121;
@@ -207,6 +192,7 @@ ul {
 .direita .content .cargo-experiencia {
   font-size: 18px;
   font-weight: 600;
+  padding-right: 20px;
 }
 
 .direita .content .empresa-experiencia {
